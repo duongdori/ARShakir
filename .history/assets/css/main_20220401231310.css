@@ -1,0 +1,149 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+:root {
+    --primary-font: "Manrope";
+    --primary-text-color: #000;
+}
+body {
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
+}
+
+.header-top{
+    padding-top: 38px;
+}
+
+.header-top .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    font-weight: 700;
+    font-style: 20px;
+    line-height: calc(25 / 20);
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.header-menu{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(19 / 14);
+    padding: 0;
+    margin-left: -50px;
+    
+}
+
+.header-menu-item{
+    margin-left: 50px;
+}
+
+.header-menu-item-link{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    
+}
+
+.header-menu-item-icon {
+    color: var(--primary-text-color);
+    margin-left: 8px;
+    display: inline;
+    top: 2px;
+    position: relative;
+}
+
+.header-login{
+    font-size: 14px;
+    line-height: calc(19 / 14);
+}
+
+.header-login-signin{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    padding: 16px 36px;
+
+}
+
+.header-login-startfree{
+    color: #fff;
+    text-decoration: none;
+    background-color: #4F46BA;
+    padding: 16px 36px;
+
+}
+
+
+.header-main {
+    display: flex;
+}
+
+.header-content {
+    max-width: 646px;
+    width: 100%;
+    margin-top: 150px;
+    flex-shrink: 0;
+}
+
+.header-content-heading {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: calc(80 / 60);
+    color: var(--primary-text-color);
+}
+
+.header-content-desc {
+    margin-top: 22px;
+    font-size: 20px;
+    line-height: calc(30 / 20);
+    color: #64607D;
+}
+
+.header-img {
+    
+}
